@@ -1,0 +1,47 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.fontWeight": 10,
+  "workbench.settings.editor": "json",
+  "editor.formatOnPaste": true,
+  "editor.quickSuggestions": true,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 22,
+  "editor.tabSize": 4,
+  "editor.cursorStyle": "line-thin",
+  "editor.multiCursorModifier": "alt",
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  }
+}
