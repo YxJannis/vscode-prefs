@@ -20,7 +20,6 @@
   "editor.renderWhitespace": "none",
   "editor.fontWeight": 10,
   "workbench.settings.editor": "json",
-  "editor.formatOnPaste": true,
   "editor.quickSuggestions": true,
   "editor.fontSize": 14,
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -31,8 +30,11 @@
   "editor.multiCursorModifier": "alt",
   "workbench.iconTheme": "material-icon-theme",
   "breadcrumbs.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [
