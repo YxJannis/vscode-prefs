@@ -16,20 +16,20 @@
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.sideBar.location": "right",
   "workbench.tree.renderIndentGuides": "none",
+  "workbench.settings.editor": "json",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.fontWeight": 10,
-  "workbench.settings.editor": "json",
   "editor.quickSuggestions": true,
   "editor.fontSize": 14,
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": false,
   "editor.lineHeight": 22,
   "editor.tabSize": 4,
+  "editor.rulers": [80],
   "editor.cursorStyle": "line-thin",
   "editor.multiCursorModifier": "alt",
-  "workbench.iconTheme": "material-icon-theme",
-  "breadcrumbs.enabled": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -37,13 +37,22 @@
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "latex-workshop.bibtex-fields.sort.enabled": true,
+  "latex-workshop.intellisense.citation.format": [
+    "author",
+    "title",
+    "journal",
+    "publisher",
+    "booktitle",
+    "year",
+    "note"
+  ],
+  "latex-workshop.latex.outDir": "%DIR%/out"
 }
