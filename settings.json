@@ -19,7 +19,6 @@
   "workbench.settings.editor": "json",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
   "editor.fontWeight": 10,
   "editor.quickSuggestions": true,
   "editor.fontSize": 14,
@@ -33,6 +32,9 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderWhitespace": "boundary",
+  "editor.insertSpaces": true,
+  "editor.autoClosingBrackets": "always",
   "[dart]": {
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
@@ -54,5 +56,6 @@
     "year",
     "note"
   ],
-  "latex-workshop.latex.outDir": "%DIR%/out"
+  "latex-workshop.latex.outDir": "%DIR%/out",
+  "[tex]": { "editor.rulers": [] }
 }
