@@ -35,6 +35,7 @@
   "editor.renderWhitespace": "boundary",
   "editor.insertSpaces": true,
   "editor.autoClosingBrackets": "always",
+  "editor.wordWrap": "on",
   "[dart]": {
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
@@ -57,5 +58,8 @@
     "note"
   ],
   "latex-workshop.latex.outDir": "%DIR%/out",
-  "[tex]": { "editor.rulers": [] }
+  "[tex]": {
+    "editor.rulers": []
+  },
+  "latex-workshop.view.pdf.viewer": "tab"
 }
