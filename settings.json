@@ -28,6 +28,8 @@
   "editor.tabSize": 4,
   "editor.rulers": [80],
   "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.multiCursorModifier": "alt",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
